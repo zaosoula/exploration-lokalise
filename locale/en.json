@@ -1,0 +1,68 @@
+{
+    "navigation": {
+        "skholeButton": "Skholè"
+    },
+    "profile": {
+        "imagePickerErrors": {
+            "cameraUnavailable": {
+                "confirm": "Close"
+            }
+        }
+    },
+    "skhole": {
+        "readingTime": "{{readingTime}} minutes of reading time",
+        "orderWhiteBookLink": "Order the paper version",
+        "pdfWhiteBookLink": "Consult the guide",
+        "whiteBookSubtitle": "The Holy Scriptures of the God of Rental Property Investment",
+        "whiteBookTitle": "The Holy Scriptures",
+        "title": "Skholè",
+        "postsLink": "All our articles",
+        "faqTitle": "FAQs",
+        "faqLink": "All the answers to your questions",
+        "faqSubtitle": "You have a question ? We have the answer!",
+        "citiesLink": "The divine cities",
+        "citiesTitle": "Cities where Masteos is present",
+        "allCitiesLink": "See all city sheets",
+        "blogLink": "Our blog",
+        "blogTitle": "All the news of rental investment and Masteos.",
+        "blogEntry": {
+            "1description": "The arrival of the TGV is having a two-way effect: by bringing the cities closer together, the...",
+            "1title": "Real estate at full speed",
+            "2description": "From investment strategy to rental management, including...",
+            "2title": "Behind the scenes",
+            "3description": "Find all our advice on",
+            "3title": "More from Skhole?"
+        },
+        "intro": {
+            "city": "The divine cities",
+            "cityDesc": "Cities where Masteos is present",
+            "cityLink": "See all city sheets"
+        },
+        "bookCard": {
+            "text": "The Holy Scriptures",
+            "textDesc": "The Holy Scriptures of the God of Rental Property Investment",
+            "download": "Consult the guide",
+            "amazon": "Order the paper version"
+        },
+        "faq": {
+            "title": "FAQs",
+            "faqDesc": "You have a question ? We have the answer! Check out our FAQs.",
+            "faqLink": "All the answers to your questions"
+        },
+        "blog": {
+            "title": "Our blog",
+            "desc": "All the news of rental investment and Masteos.",
+            "blogLink": "All our articles"
+        },
+        "lastAdvices": "Our latest tips",
+        "averageYield": "Average yield",
+        "bookCardButton": "Discover",
+        "bookCardTitle": "The sacred text of rental investment",
+        "subtitle": "All the knowledge about rental, accumulated since antiquity. Just that.",
+        "subtitle2": "Our detailed analyzes by city",
+        "text": "The sacred text of<1\/> rental investment"
+    },
+    "ui": {
+        "closeButton": "Close"
+    }
+}
