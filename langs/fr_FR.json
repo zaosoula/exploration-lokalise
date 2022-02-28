@@ -258,7 +258,6 @@
         "updateProfilePicture": "Modifier ma photo",
         "imagePickerErrors": {
             "cameraUnavailable": {
-                "body": "",
                 "confirm": "Fermer",
                 "title": "Caméra non disponible"
             },
@@ -329,7 +328,7 @@
         "grossReturn": "Rendement brut",
         "guide": "{{city}} (guide)",
         "lokimo": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
-        "pricePerMeter": "Prix/m2 actuel",
+        "pricePerMeter": "Prix\/m2 actuel",
         "renovation": "Travaux",
         "sellingPrice": "Prix de vente",
         "strategyType": {
@@ -338,11 +337,13 @@
         }
     },
     "propertyFinances": {
-        "countYears": "{{count}} an",
-        "countYears_plural": "{{count}} ans",
         "funding": "Financement",
         "year": "an",
-        "years": "ans"
+        "years": "ans",
+        "countYears": {
+            "one": "{{count}} an",
+            "other": "{{count}} ans"
+        }
     },
     "propertyInfo": {
         "financial": "Finances",
@@ -378,7 +379,7 @@
         "dislikeReasons": {
             "AESTHETICS": {
                 "title": "Esthétisme",
-                "description": "L’immeuble / les parties communes ne sont pas à mon goût"
+                "description": "L’immeuble \/ les parties communes ne sont pas à mon goût"
             },
             "AVERAGE_YIELD": {
                 "title": "Rentabilité",
@@ -464,7 +465,6 @@
         "rentalSituation": {
             "EMPTY": "Vide",
             "FULLY_RENTED": "Loué",
-            "UNKNOWN": "",
             "PARTLY_RENTED": "Partiellement loué"
         },
         "annualCharges": "Charges locataire",
@@ -562,8 +562,6 @@
         "preselected": "Pré-sélectionné",
         "neighborhoodTitle": "Quartier",
         "modifyMeeting": "Modifier le rendez-vous",
-        "lot": "lot",
-        "lot_plural": "lots",
         "connexion": "Connexion",
         "register": "S'inscrire",
         "contactAdvisor": "Contacter mon conseiller",
@@ -613,7 +611,7 @@
             "totalBudget": "Budget Total",
             "renovationAmount": "Travaux",
             "renovationType": "Type de travaux",
-            "pricePerMeter": "Prix/m2 actuel",
+            "pricePerMeter": "Prix\/m2 actuel",
             "lokimo1": "*Valorisation à 5 ans du foncier sur la zone. (Source : Lokimo).",
             "lokimo2": "Source : Lokimo - prévision 5 prochaines années",
             "invest": "Investissement",
@@ -653,7 +651,7 @@
             "annualCumultiveSavingsBeforeTax": "Effort d'épargne annuel",
             "cumultiveSavingsBeforeTax": "Effort d'épargne mensuel",
             "financialModel": "Modélisation financière",
-            "grossReturnRateDescription": "Revenus annuels brut / (Prix de vente + Travaux)",
+            "grossReturnRateDescription": "Revenus annuels brut \/ (Prix de vente + Travaux)",
             "incomes": "Revenus",
             "loanInterestRate": "Taux d'emprunt TAEG",
             "loanMonthlyAmount": "Mensualité du prêt",
@@ -677,14 +675,14 @@
                 "rentalVacation": "Vacance locative",
                 "rentalVacationDescription": "Coût de la vacance locative (période entre deux locations durant laquelle le bien ne génère pas de revenu). Pour ce projet, nous estimons que la vacance sera de {{value}} mois par an",
                 "grossReturn": "Taux de rendement brut",
-                "grossReturnDescription": "( ( Revenus annuels + Charges annuelles ) / ( Prix de vente + Travaux + Ameublement ) ) * 100",
+                "grossReturnDescription": "( ( Revenus annuels + Charges annuelles ) \/ ( Prix de vente + Travaux + Ameublement ) ) * 100",
                 "loanDown": "Apport",
                 "loanDownDescription": "Somme versée par l'investisseur pour financer une partie de l'opération. Il est nécessaire d'avoir un apport équivalent à 10% du coût total du projet",
                 "annualHomeOwnerInsurance": "Assurance PNO",
                 "annualCurrentExpenses": "Charges de copropriété",
                 "bankCommission": "Frais bancaires",
                 "netReturn": "Rendement opérationnel",
-                "netReturnDescription": "( revenus annuels - charges de copropriété - taxe foncière - assurance PNO - gestion locative ) / ( prix de vente + travaux + ameublement ) * 100\nLe rendement opérationnel permet de comparer deux projets d'investissement locatif dans leur capacité à générer du cash-flow indépendamment du mode de financement du projet et du régime fiscal choisi par l'investisseur.",
+                "netReturnDescription": "( revenus annuels - charges de copropriété - taxe foncière - assurance PNO - gestion locative ) \/ ( prix de vente + travaux + ameublement ) * 100\nLe rendement opérationnel permet de comparer deux projets d'investissement locatif dans leur capacité à générer du cash-flow indépendamment du mode de financement du projet et du régime fiscal choisi par l'investisseur.",
                 "annualCurrentExpensesDescription": "Charges dont le propriétaire est redevable pour couvrir l'entretien du bien. Inclut les charges locatives (récupérables auprès du locataire) et les charges supportées par le propriétaire (charges non-récupérables)",
                 "annualHomeOwnerInsuranceDescription": "Assurance propriétaire non-occupant. Cette assurance fournit au propriétaire toutes les garanties pour couvrir aussi bien le logement que les dommages qui pourraient être causés aux locataires.",
                 "annualPropertyManagement": "Gestion locative",
@@ -751,6 +749,10 @@
             "outside": "Extérieurs",
             "plans": "Plans",
             "renovation": "Travaux"
+        },
+        "lot": {
+            "one": "lot",
+            "other": "lots"
         }
     },
     "skhole": {
@@ -805,7 +807,7 @@
         "bookCardTitle": "Le texte sacré de l'investissement locatif",
         "subtitle": "Toutes les connaissances sur le locatif, accumulées depuis l'Antiquité. Rien que ça.",
         "subtitle2": "Nos analyses détaillées par ville",
-        "text": "Le texte sacré de<1/> l'investissement locatif"
+        "text": "Le texte sacré de<1\/> l'investissement locatif"
     },
     "ui": {
         "closeButton": "Fermer"
