@@ -258,7 +258,6 @@
         "updateProfilePicture": "Modifier ma photo",
         "imagePickerErrors": {
             "cameraUnavailable": {
-                "body": "",
                 "confirm": "Fermer",
                 "title": "Caméra non disponible"
             },
@@ -338,11 +337,11 @@
         }
     },
     "propertyFinances": {
-        "countYears": "{{count}} an",
-        "countYears_plural": "{{count}} ans",
         "funding": "Financement",
         "year": "an",
-        "years": "ans"
+        "years": "ans",
+        "countYears": "{{count}} an",
+        "countYears_plural": "{{count}} ans"
     },
     "propertyInfo": {
         "financial": "Finances",
@@ -464,7 +463,6 @@
         "rentalSituation": {
             "EMPTY": "Vide",
             "FULLY_RENTED": "Loué",
-            "UNKNOWN": "",
             "PARTLY_RENTED": "Partiellement loué"
         },
         "annualCharges": "Charges locataire",
@@ -562,8 +560,6 @@
         "preselected": "Pré-sélectionné",
         "neighborhoodTitle": "Quartier",
         "modifyMeeting": "Modifier le rendez-vous",
-        "lot": "lot",
-        "lot_plural": "lots",
         "connexion": "Connexion",
         "register": "S'inscrire",
         "contactAdvisor": "Contacter mon conseiller",
@@ -751,7 +747,9 @@
             "outside": "Extérieurs",
             "plans": "Plans",
             "renovation": "Travaux"
-        }
+        },
+        "lot": "lot",
+        "lot_plural": "lots"
     },
     "skhole": {
         "locativeTension": "Tension locative",
